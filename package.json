@@ -1,0 +1,17 @@
+{
+  "name": "thatwomanloves",
+  "version": "1.0.0",
+  "description": "Luxury Barbie-themed heels store — thatwomanloves",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "pages:deploy": "wrangler pages deploy public --project-name=thatwomanloves",
+    "db:migrate": "wrangler d1 execute thatwomanloves-db --file=./schema.sql",
+    "db:migrate:remote": "wrangler d1 execute thatwomanloves-db --remote --file=./schema.sql",
+    "db:query": "wrangler d1 execute thatwomanloves-db --remote --command"
+  },
+  "devDependencies": {
+    "wrangler": "^3.114.17"
+  }
+}

@@ -1,0 +1,2 @@
+﻿# Copy this file to .dev.vars (gitignored) and fill in your keys
+MIDTRANS_SERVER_KEY=SB-Mid-server-XXXXXXXXXXXXXXXXXXXX
