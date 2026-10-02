@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "thatwomanloves-db"
-database_id   = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id   = "c9e11883-de26-42bd-9117-d03580c58a8b"
 
 # Static Assets (public/) served via Cloudflare Pages
 # For local wrangler dev, the worker also handles static fallback
